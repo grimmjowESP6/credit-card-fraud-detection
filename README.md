@@ -22,7 +22,7 @@ Dataset used: [Credit Card Fraud Detection - Kaggle](https://www.kaggle.com/data
 
 ## Setup
 ```bash
-git clone https://github.com/your-username/credit-card-fraud-detection.git
+git clone https://github.com/grimmjowESP6/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 pip install -r requirements.txt
 ```
