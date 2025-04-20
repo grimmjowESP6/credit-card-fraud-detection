@@ -15,7 +15,6 @@ Dataset used: [Credit Card Fraud Detection - Kaggle](https://www.kaggle.com/data
 
 
 ## Key Steps
-- Exploratory Data Analysis (EDA)
 - Handle class imbalance using SMOTE
 - Feature engineering
 - Train classification models: Logistic Regression, Random Forest, XGBoost
@@ -29,14 +28,21 @@ pip install -r requirements.txt
 ```
 
 ## How to Run
-Run `notebooks/main.ipynb` for data loading, EDA, preprocessing, and to train and evaluate models
+Run `notebooks/main.ipynb` for data loading, preprocessing, and to train and evaluate models
 
 ## Results
-- Best model: XGBoost
-- Accuracy: 99.9%
-- Precision: XX.XX%
-- Recall: XX.XX%
-- F1 Score: XX.XX%
+
+For logistic regression:
+- ROC AUC Score: 0.9623115577889447
+- Average Precision Score (PR-AUC): 0.021739130434782608
+
+For Random Forest:
+- ROC AUC Score: 0.9958123953098827
+- Average Precision Score (PR-AUC): 0.14285714285714285
+
+For XGBoost:
+- ROC AUC Score: 0.9472361809045227
+- Average Precision Score (PR-AUC): 0.015625
 
 ## Author
 grimmjowESP6
